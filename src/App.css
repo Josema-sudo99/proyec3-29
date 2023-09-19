@@ -21,7 +21,7 @@ right: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px; 
+    margin: 1rem; 
   }
 
 
@@ -37,7 +37,7 @@ right: 0;
 
 .center-content {
    
-    margin: 1em;
+    margin: auto;
     background-color: #071f18;
     border-radius: 1rem;
     max-width: 28em;
@@ -55,9 +55,10 @@ right: 0;
 .titulitos-3{
     color: white;
     letter-spacing: -1px;
-    font-weight: 800;
+    font-weight: 79800;
     display: flex;
     justify-content: space-around;
+    
 }
 
 
@@ -65,6 +66,7 @@ right: 0;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    align-content: space-around;
 }
 
 /*--ResidentCard 1.1--*/

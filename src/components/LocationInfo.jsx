@@ -3,6 +3,7 @@ const LocationInfo = ({location}) => {
 console.log(location)
 
   return (
+    <div className="containerLocaTit-0">
   <article className="titulitos-1 center-content">
       <h3 className="titulitos-2">{location?.name}</h3>
       <div className="containerLocaTit">
@@ -21,6 +22,7 @@ console.log(location)
       </div>
           
   </article>
+  </div>
   )
 }
 
